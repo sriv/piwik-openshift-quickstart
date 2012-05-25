@@ -24,7 +24,7 @@ Add this upstream Piwik quickstart repo
 
 	cd piwik/php
 	rm -rf *
-	git remote add upstream -m master git://github.com/gshipley/piwik-openshift-quickstart.git
+	git remote add upstream -m master git://github.com/openshift/piwik-openshift-quickstart.git
 	git pull -s recursive -X theirs upstream master
 
 Then push the repo upstream to OpenShift
